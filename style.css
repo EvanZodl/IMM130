@@ -1,11 +1,21 @@
 h1{
-font-
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 32;
+  font-color: #4d9201;
+  text-align: center;
 }
 
-
-p {
+p{
   font-family: sans-serif;
-  font-style: strong;
-  font-size:18px;
-	font-color: #CCC;
+  font-size: 16;
+  font-color: #CCC;
+  text-align: center;
+}
+
+a{
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 16;
+  text-align: center;
 }
