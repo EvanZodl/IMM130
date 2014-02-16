@@ -1,21 +1,97 @@
+#wrapper{
+    width:960px;
+    margin: auto;
+}
+
 h1{
   font-family: sans-serif;
-  font-style: bold;
-  font-size: 32;
+  font-style: lighter;
+  font-size: 36;
   color: #4d9201;
   text-align: center;
 }
 
-p{
+h2{
   font-family: sans-serif;
-  font-size: 16;
-  color: #CCC;
-  text-align: center;
+  font-size: 24;
+  color: #222222;
+  text-align: left;
 }
 
-a{
-  font-family: sans-serif;
-  font-style: italic;
-  font-size: 16;
-  text-align: center;
+p{
+  font-family: serif;
+  font-size: 18;
+  color: #000;
+}
+
+header{
+    width:960px;
+    height: 100px;
+    background:#eee;
+    text-align:center;
+    padding-top:20px;
+    margin:auto;
+}
+
+
+/*  <---Navigation Bar--->  */
+
+nav{
+    height:auto;
+    background:#ccc;
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+
+nav ul li{
+    display:inline;
+    font-family:serif;
+    font-size:24px;
+    padding:0 20 0 20;    
+}
+
+nav ul li a{
+    text-decoration:none;
+    display:inline;
+    font-family:serif;
+    font-size:24px; 
+    color: #000;
+    font-weight:bold;
+    
+}
+
+
+/*  <---Main Content--->  */
+
+#main-text{
+    height:100%;
+    width: 650px;
+    float: left;
+    background:#aaa;
+    text-align:left;
+    padding:15px;
+}
+
+#main-text-full{
+    height:100%;
+    width: 930px;
+    float: left;
+    background:#aaa;
+    text-align:left;
+    padding:15px;
+}
+
+/*  <---News/Sidebar--->  */
+
+#sidebar{
+    height:100%;
+    width:250px;
+    float:left;
+    background:#bbb;
+    padding:15px;
 }
